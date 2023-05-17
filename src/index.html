@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <hr>
+
+    <p id="message"></p>
+    <form>
+        <h2>City:</h2> <input type="text" id="locationId">
+        <input type="button" id="submitBtn" value="Get Weather">
+
+        <p id="weatherLocation"></p>
+
+        <div class="temps">
+            <p id="temp"></p>
+            <p id="feelsLike"></p>
+        </div>
+        <!-- <p id="change" hidden></p> -->
+        <!-- <a href="#" id="change" hidden></a> -->
+
+        <button id="change" hidden></button><br><br>
+
+        <button id="clear" hidden>Clear</button>
+    </form>
+
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
