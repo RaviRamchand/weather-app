@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+body{
+    background-color: #cef3ff;
+}
+
+hr{
+    background-color: black;
+    border-color: black;
+}
+
+h2{
+    display: inline;
+    font-weight: normal;
+}
+
+form{
+    text-align: center;
+}
+
+input[type="text"] {
+    height: 17px;
+}
+
+#message{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+}
+
+.temps{
+    display:grid; 
+    grid-template-columns: auto auto;
+}
+
+.change{
+    display:grid; 
+    justify-content: center;
+}
+
+a{
+    color: blue;
+}
+
+#change{
+    width: 100px;
+}
