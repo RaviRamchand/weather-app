@@ -82,9 +82,5 @@ $(document).ready(() => {
             $("#locationId").prop('disabled',true); 
             $("#submitBtn").prop('disabled',true);  
         });
-
-        // $("#clear").click(() => {
-        //     location.reload();
-        // })
     }
 })
