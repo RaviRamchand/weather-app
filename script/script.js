@@ -7,7 +7,7 @@ $(document).ready(() => {
         var count = 0;
 
         //tell api url how much spaces are in the location
-        spaces = place.split(""); 
+        spaces = place.split("");
         for (var i = 0; i < spaces.length; i++) {
             if (spaces[i] == ' ') {
                 count++;
@@ -15,7 +15,7 @@ $(document).ready(() => {
         }
 
         //tell api url how much words are in the location
-        words = place.split(" ") 
+        words = place.split(" ")
         console.log(words.length);
         console.log(words[0]);
         console.log("Count: " + count);
@@ -79,8 +79,8 @@ $(document).ready(() => {
             })
 
             $("#change").show();
-            $("#locationId").prop('disabled',true); 
-            $("#submitBtn").prop('disabled',true);  
+            $("#locationId").prop('disabled', true);
+            $("#submitBtn").prop('disabled', true);
         });
     }
 })
